@@ -1,10 +1,13 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './Components/Navabar/Navbar';
+import Showcase from './Components/Showcase/Showcase';
 
 function App() {
   return (
     <div className="App">
-     <h1>Apsoft Nepal</h1>
+       <Navbar />
+       {/* <Showcase />
+ */}
     </div>
   );
 }
